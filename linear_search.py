@@ -7,6 +7,7 @@ def li_search(arr, num):
         if i == num:
             print("found")
             return True
+        
     print("not found")
     return False
 
