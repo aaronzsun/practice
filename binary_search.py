@@ -7,6 +7,7 @@ def bi_search(arr, num):
         length = len(arr)
         mid = round(length / 2)
         mid_num = arr[mid]
+        
         if num == mid_num:
             print("found")
             return True
